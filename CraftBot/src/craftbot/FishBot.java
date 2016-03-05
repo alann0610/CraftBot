@@ -12,7 +12,8 @@ public class FishBot implements BotType {
 	@Override
 	public void run() throws Exception {
 		CraftBot.STATE = CraftBot.STATE_GETRUNCOUNT;
-		int runLength = 1000 * 60 * 40;
+		int runLength = 1000 * 60 * 40;//40 minutes
+//		int runLength = 1000 * 30; //30 seconds demo.
 		int hookSeconds = Util.getNumberSelection() * 1000;
 		int iterations = Util.getNumberSelection();
 		Thread.sleep(1000);

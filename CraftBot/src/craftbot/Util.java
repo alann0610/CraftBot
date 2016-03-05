@@ -10,7 +10,7 @@ import lejos.util.TextMenu;
 public class Util {
 
 	final static String[] programList = { "CRAFT SynthTime", "CRAFT 2star",
-			"CRAFT 3star", "FARM", "FISH", "TURNIN" };
+			"CRAFT 3star", "FARM", "FISH", "TEST" };
 	final static String[] runTimeList = { "1800000", "3600000", "7200000",
 			"14400000" };
 	final static String[] synthTimeList = { "14000", "33000", "45000", "60000" };

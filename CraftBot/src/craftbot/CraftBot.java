@@ -52,8 +52,8 @@ public class CraftBot {
 			bot = new Craft2StarBot();
 		} else if (programType.equals("CRAFT 3star")) {
 			bot = new Craft3StarBotV2();
-		} else if (programType.equals("TURNIN")) {
-			bot = new Craft2StarBotTurnin();
+		} else if (programType.equals("TEST")) {
+			bot = new Test();
 		} else if (programType.equals("FARM")) {
 			bot = new FarmBot();
 		} else if (programType.equals("FISH")) {
